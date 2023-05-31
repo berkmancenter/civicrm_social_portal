@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'views/home.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-void main() {
-  runApp(const MyApp());
+Future main() async {
+  await dotenv.load(fileName: '../.env');
+  runApp(const CivicrmSocialPortal());
 }
 
 // GoRouter configuration
@@ -16,9 +18,9 @@ final _router = GoRouter(
   ],
 );
 
-class MyApp extends StatelessWidget {
+class CivicrmSocialPortal extends StatelessWidget {
   /// Constructs a [MyApp]
-  const MyApp({super.key});
+  const CivicrmSocialPortal({super.key});
 
   @override
   Widget build(BuildContext context) {
