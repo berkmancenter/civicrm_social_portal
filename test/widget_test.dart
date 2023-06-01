@@ -8,12 +8,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:civicrm_social_portal/main.dart';
+import 'package:flutter_social_media_app/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(const CivicrmSocialPortal());
+    await tester.pumpWidget(const FlutterSocialMediaApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

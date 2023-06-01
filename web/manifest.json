@@ -1,6 +1,6 @@
 {
-    "name": "civicrm_social_portal",
-    "short_name": "civicrm_social_portal",
+    "name": "flutter_social_media_app",
+    "short_name": "flutter_social_media_app",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-package com.example.civicrm_social_portal
+package com.example.flutter_social_media_app
 
 import io.flutter.embedding.android.FlutterActivity
 
